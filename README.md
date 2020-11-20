@@ -80,13 +80,13 @@ In this section the review criteria from the assignment instructions are listed 
 
 ### Advanced Features II
 - At least one feature from this topic is introduced
-*Yes. The Video 
+*Yes. The video Statistics and distance based features talks about "Calculating various statistics of one feature grouped by another" as one advanced feature engineering technique. In this solution, monthly sales are aggregated over shops and various item category variables." 
 ### Hyperparameter tuning
-- Parameters of models are roughly optimal
+- Parameters of models are roughly optimal. *Yes The hyperparameters are found by a systematic grid search in a validation setup. They can thus be considered "roughly optimal.*
 
 ### Ensembles
-- Ensembling is utilized (linear combination counts)
-- Validation with ensembling scheme is set up correctly, i.e. KFold or Holdout is utilized
-- Models from different classes are utilized (at least two from the following: KNN, linear models, RF, GBDT, NN)
+- Ensembling is utilized (linear combination counts). *Yes.*
+- Validation with ensembling scheme is set up correctly, i.e. KFold or Holdout is utilized. *No. Simple linear averaging scheme is utilised with fixed weights, and no validation is necessary.*
+- Models from different classes are utilized (at least two from the following: KNN, linear models, RF, GBDT, NN). *Yes. The CatBoost library implements GBDT and random forest implementation from scikit-learn is also utilised.*
 
 ## Result summary
