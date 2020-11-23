@@ -59,18 +59,18 @@ In this section the review criteria from the assignment instructions are listed 
 
 ### EDA
 - Several interesting observations about data are discovered and explained. *Yes, for example yearly trend and different store types.*
-- Target distribution is visualized, time trend is assessed
+- Target distribution is visualized, time trend is assessed. *Yes*
 
 ### Validation
 - Type of train/test split is identified and used for validation
-*Yes*
+*Yes. VAlidation setup is discussed in Notebook 4. for feature selection and hyperparameter tuning*
 - Type of public/private split is identified
-*Yes.*
+*Yes (Notebook 1 on EDA).*
 
 ### Data leakages
-- Data is investigated for data leakages and investigation process is described
+- Data is investigated for data leakages and investigation process is described. *Yes (Notebook 2.)*
 - Found data leakages are utilized
-
+* Yes. For example, the predictions are scaled as a post-processing step based on leaderboard probing.*
 ### Metrics optimization
 - Correct metric is optimized. *Yes. After clipping the target value to the interval [0,20], the metric boils down to standard RMSE, which can be selected as optimisation target in both CatBoost and scikit-learn random forest libraries.*
 
